@@ -10,7 +10,9 @@ export default function Header() {
             <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
               <Heart className="w-4 h-4 text-primary-foreground" />
             </div>
-            <span className="text-xl font-semibold">Pastor John Smith</span>
+            <span className="text-xl font-semibold">
+              BISHOP FAVOUR LAWRENCE
+            </span>
           </div>
           <div className="hidden md:flex items-center space-x-6">
             <Link

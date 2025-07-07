@@ -103,10 +103,12 @@ export default function ContactFooter() {
               <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
                 <Heart className="w-4 h-4 text-primary-foreground" />
               </div>
-              <span className="text-lg font-semibold">Pastor John Smith</span>
+              <span className="text-lg font-semibold">
+                BISHOP FAVOUR LAWRENCE
+              </span>
             </div>
             <p className="text-sm text-muted-foreground">
-              © 2024 Pastor John Smith. Serving with love and dedication.
+              © 2025 BISHOP FAVOUR LAWRENCE. Serving with love and dedication.
             </p>
           </div>
         </div>

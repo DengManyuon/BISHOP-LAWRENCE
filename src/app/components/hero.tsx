@@ -7,15 +7,15 @@ export default function Hero() {
   return (
     <section className="py-20 bg-gradient-to-br from-slate-50 to-slate-100">
       <div className="container mx-auto px-4">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-start">
           <div className="space-y-6">
             <div className="space-y-2">
-              <Badge variant="secondary" className="mb-4">
-                Senior Pastor
-              </Badge>
-              <h1 className="text-4xl lg:text-5xl font-bold tracking-tight">
-                Welcome to Our
-                <span className="text-primary block">Faith Community</span>
+              <h1 className="text-4xl font-bold py-5 tracking-tight">
+                KING'S COVENANT CATHEDRAL
+              </h1>
+              <h1 className="text-lg lg:text-2xl font-bold tracking-tight">
+                VOICE OF GENERATIONAL FREEDOM
+                {/* <span className="text-primary block">Faith Community</span> */}
               </h1>
               <p className="text-xl text-muted-foreground max-w-lg">
                 Serving God's people with love, compassion, and dedication for
@@ -39,13 +39,13 @@ export default function Hero() {
             </div>
           </div>
           <div className="relative">
-            <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-primary/20 to-primary/5 p-8">
+            <div className="aspect-square rounded-2xl overflow-hidden bg-blue-500 p-8">
               <Image
                 src="/p.png"
                 alt="Pastor John Smith"
                 width={400}
                 height={400}
-                className="w-full h-full object-cover rounded-xl"
+                className="w-full h-full object-contain rounded-xl"
               />
             </div>
           </div>
